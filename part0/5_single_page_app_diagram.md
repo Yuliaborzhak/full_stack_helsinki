@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -30,3 +31,4 @@ sequenceDiagram
     deactivate server
 
     Note right of server: The server doesn't return a favicon imaage as it is not set 
+```
